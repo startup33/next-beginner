@@ -5,7 +5,11 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <header className="border-b border-border px-6 py-4 flex items-center justify-between">
-      <span className="font-bold text-lg tracking-tight">NextStarter</span>
+      <span className="font-bold text-lg tracking-tight">
+        <Link href="/">
+          NextStarter
+        </Link>
+      </span>
       <nav className="flex items-center gap-4">
         <Link
           href="/products"
